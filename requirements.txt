@@ -1,2 +1,6 @@
+langchain-google-genai
+langchain-together
 streamlit
-pandas
+langchain
+pylint
+autopep8
