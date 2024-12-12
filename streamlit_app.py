@@ -34,7 +34,7 @@ def debug_code_with_llama(file_path):
 
         llm = ChatTogether(
             model="meta-llama/Llama-Vision-Free",
-            api_key=st.secrets['togetherai'],
+            api_key=st.secrets['together'],
         )
         
         model = GoogleGenerativeAI(
